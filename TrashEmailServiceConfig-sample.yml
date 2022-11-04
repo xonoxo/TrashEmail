@@ -5,22 +5,20 @@ server:
 #Email server configuration for SMTP alias creation
 email-server:
   hosts:
-    - trashemail.in
-    - thromail.com
-    - humblemail.com
-  admin-email: contact@trashemail.in
-  admin-password: sample
-  add-url: https://trashemail.in/admin/mail/aliases/add
-  remove-url: https://trashemail.in/admin/mail/aliases/remove
-  target-alias: demo@trashemail.in
+    - cyberrok.com
+  admin-email: support@cyberrok.com
+  admin-password: Hasan@4455
+  add-url: https://mail.cyberrok.com/change
+  remove-url: https://mail.cyberrok.com/delete
+  target-alias: support@cyberrok.com
 
 
 # Sample config for connecting with mysql-docker
 spring:
   datasource:
     url: jdbc:mysql://mysql:3306/trashemail
-    username: root
-    password: changeme
+    username: anonbd
+    password: Hasan@4455
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
