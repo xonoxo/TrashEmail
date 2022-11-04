@@ -1,3 +1,7 @@
+# Email Server IMAP and SMTP configuration
+# SMTP server should support Alias creation and deletion
+# IMAP server should support IDLE
+
 trashemail:
   host: trash-email-service
   port: 9090
@@ -6,13 +10,13 @@ trashemail:
 imap-client-service:
   telegram:
     url: https://api.telegram.org/bot
-    bot-token: xxxxxxxxxxxxxxxxxxxxxx
+    bot-token: 5597187311:AAH8286Ax9btIQIkvmqA3EFK1LtJgvRisnY
     size: 4096
   imap:
-    host: trashemail.in
+    host: cyberrok.com
     port: 993
-    email: demo@trashemail.in
-    password: changeme
+    email: support@cyberrok.com
+    password: q@EG$5v^5SpR
   emails:
     hostPath: http://127.0.0.1:8000/
     downloadPath: /opt/EmailsToTelegramService/mails/
